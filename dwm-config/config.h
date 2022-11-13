@@ -171,6 +171,7 @@ static const Rule rules[] = {
 	RULE(.class = "st", .isterminal = 1)
 	RULE(.title = "Event Tester", .noswallow = 1)
 	RULE(.instance = "spterm", .tags = SPTAG(0), .isfloating = 1)
+	RULE(.class = "qutebrowser", .noswallow = 1)
 };
 
 static const MonitorRule monrules[] = {
